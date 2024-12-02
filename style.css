@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+*{
+    margin: 0;
+}
+.borda{
+    border: solid 3px black;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+}
+.cabecalho{
+    width: 100%;
+    height: 120px;
+    padding-bottom: 123px;
+}
+.divimgc{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 120px;
+    background-image: url(https://e0.pxfuel.com/wallpapers/69/694/desktop-wallpaper-clouds-the-simpsons-figure-background-simpsons-art-cartoon-cloud.jpg);
+}
+.imgcab{
+    width: 80px;
+    height: 100%;
+}
+#divcab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 120px;
+    background-image: url(https://e0.pxfuel.com/wallpapers/69/694/desktop-wallpaper-clouds-the-simpsons-figure-background-simpsons-art-cartoon-cloud.jpg);
+    border-bottom: solid 3px black;
+}
+.title{
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+.pad{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.perguntas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    background-image: url(https://img.wallpapic-br.com/i3316-843-827/medium/os-simpsons-azuis-desenhos-animados-amarelos-imagem-de-fundo.jpg);
+}
+.opcoes{
+    padding-top: 50px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  greenyellow ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.font2{
+    font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:  greenyellow ;
+  font-size: 30px;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.font3{
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  greenyellow ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+button{
+    width: 10vw;
+    height: 10vh;
+    background-color: greenyellow;
+    border: solid 1px black;
+}
+@media (max-width: 768px) {
+    .divimgc {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .imgcab {
+        width: 50px;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    .font2, .font3 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .divimgc {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgcab {
+        width: 40px;
+    }
+
+    .title {
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    .perguntas {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .font2, .font3 {
+        font-size: 0.9em;
+    }
+
+    .opcoes {
+        padding: 10px;
+        margin-top: 10px;
+    }
+}
